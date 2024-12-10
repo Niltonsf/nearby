@@ -1,0 +1,16 @@
+{
+  "editor.formatOnSave": true,
+  "editor.defaultFormatter": "esbenp.prettier-vscode", // Ensure Prettier is set as the default formatter
+  "[javascript]": {
+    "editor.defaultFormatter": "dbaeumer.vscode-eslint" // Use ESLint for JavaScript
+  },
+  "[javascriptreact]": {
+    "editor.defaultFormatter": "dbaeumer.vscode-eslint" // Use ESLint for JSX
+  },
+  "[typescript]": {
+    "editor.defaultFormatter": "dbaeumer.vscode-eslint" // Use ESLint for TypeScript
+  },
+  "[typescriptreact]": {
+    "editor.defaultFormatter": "dbaeumer.vscode-eslint" // Use ESLint for TSX
+  }
+}
