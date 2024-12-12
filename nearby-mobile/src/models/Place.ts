@@ -1,3 +1,9 @@
+export interface Rule {
+  description: string
+  id: string
+  marketId: string
+}
+
 export interface Place {
   id: string
   name: string
@@ -5,4 +11,9 @@ export interface Place {
   coupons: number
   cover: string
   address: string
+  categoryId: string
+  latitude: number
+  longitude: number
+  phone: string
+  rules: Rule[]
 }
